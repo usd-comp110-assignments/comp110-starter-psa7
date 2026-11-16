@@ -1,45 +1,39 @@
-"""
-Module: game_of_sticks
+"""Game of Sticks.
 
 Implementation of the Game of Sticks, including an AI that learns the game,
 either by playing against a human, or by pre-training against another AI.
 
-Authors:
-1) Name - USD Email Address
-2) Name - USD Email Address
+Author: <INSERT YOUR FULL NAME AND USD EMAIL HERE>
 """
 
 import random
 
 
 def get_player_selection(player_number, sticks_left):
-    """
-    Replace this fake docstring comment with a real one with the proper
-    formatting.
+    """To Do: Add a proper docstring for this function."""
 
-    It should be the very first thing you do when writing this function.
-    """
-
-    pass # remove this line when you start implementing your function
+    return -1 # To Do: Replace this line with your implementation.
 
 
 def player_vs_player(num_sticks):
-    """
-    Replace this fake docstring comment with a real one with the proper
-    formatting.
+    """To Do: Add a proper docstring for this function."""
 
-    It should be the very first thing you do when writing this function.
-    """
-
-    pass # remove this line when you start implementing your function
+    pass # To Do: Replace this line with your implementation.
 
 
 def main():
+    """Main function that orchestrates the playing of the game.
+    
+    The program will ask how many sticks to start with and which mode
+    they player want.
+    """
     print("Welcome to the Game of Sticks!")
     num_sticks = int(input("How many sticks are there on the table initially (10-100)? "))
 
     player_vs_player(num_sticks)
 
+
+# DO NOT MODIFY ANYTHING BELOW THIS LINE!!!
 
 if __name__ == "__main__":
     main()
